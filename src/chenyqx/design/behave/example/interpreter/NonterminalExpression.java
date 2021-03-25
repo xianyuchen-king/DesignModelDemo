@@ -1,4 +1,11 @@
 package chenyqx.design.behave.example.interpreter;
 
-public class NonterminalExpression {
+/**
+ * 非终结符解释器
+ */
+public class NonterminalExpression implements AbstractExpression{
+    @Override
+    public void interpret(String info) {
+
+    }
 }
